@@ -1,0 +1,62 @@
+.people-list {
+    list-style: none;
+    background-color: white;
+    padding: 8px 0;
+    margin: 0;
+}
+
+.people-list-header {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.people-list-header p {
+    margin: 0;
+    font-size: 13px;
+    color: #707070;
+    flex: 1;
+    font-weight: bold;
+}
+
+.people-list-header p:last-of-type {
+    flex: 0.4;
+    text-align: center;
+}
+
+.people-list .form {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    gap: 8px;
+    margin: 8px;
+}
+
+.people-list .form input {
+    font-size: 12px;
+    color: #484848;
+    flex: 1;
+}
+
+.people-list .add-button {
+    height: min-content;
+    display: flex;
+    border: none;
+    background-color: transparent;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.people-list .buttons-container {
+    display: flex;
+    gap: 4px;
+}
+
+.people-list .buttons-container button {
+    padding: 0;
+    border: none;
+    background: transparent;
+}

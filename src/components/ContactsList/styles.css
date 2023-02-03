@@ -1,0 +1,28 @@
+.contacts-list {
+    margin: 0;
+    padding: 0;
+    min-width: 350px;
+}
+
+.contacts-list .buttons-container {
+    display: flex;
+    gap: 4px;
+}
+
+.contacts-list .buttons-container button {
+    padding: 0;
+}
+
+.contacts-list .form {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.contacts-list .form input,
+.contacts-list .form select {
+    font-size: 12px;
+    color: #484848;
+    flex: 1;
+}

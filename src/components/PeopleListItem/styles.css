@@ -1,0 +1,72 @@
+.people-list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px 8px;
+    align-items: center;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.people-list-item * {
+    flex: 1;
+}
+
+.people-list-item p {
+    font-size: 14px;
+    margin: 0;
+    color: #484848;
+}
+
+.people-list-item p.name {
+    font-weight: bold;
+}
+
+.people-list-item .show-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0.4;
+    gap: 4px;
+}
+
+.people-list-item .show-button,
+.people-list-item .delete-button,
+.people-list-item .edit-button {
+    outline: none;
+    border: 0;
+    background-color: #2e22ed;
+    color: white;
+    padding: 4px 0;
+    border-radius: 5px;
+    width: 75%;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.people-list-item .delete-button {
+    background-color: #ed223a;
+}
+
+.people-list-item .edit-button {
+    background-color: #7ded22;
+}
+
+.people-list-item .show-button:hover {
+    background-color: #271cbd;
+
+}
+
+.people-list-item p.quantity {
+    font-size: 13px;
+}
+
+.people-list-item:not(:last-of-type) {
+    margin-bottom: 8px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.people-list-item .form {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    gap: 8px;
+}
